@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentences in H2 Tags</title>
+    <style>
+        body {
+            background-color: #e0e1dd; /* Light gray background */
+            font-family: Arial, sans-serif; /* Clean font */
+            margin: 0;
+            padding: 0;
+            color: #1b263b; /* Dark blue text color */
+        }
+
+        h1 {
+            color: #ffffff; /* White text for h1 */
+            background-color: #1b263b; /* Dark blue background */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px; /* Rounded corners */
+            text-align: center; /* Center the text in h1 */
+        }
+
+        h2 {
+            color: white; /* Dark blue text color */
+            background-color: #778da9; /* Grayish blue background */
+            padding: 20px 20px 20px 40px; /* Padding: 20px top and bottom, 40px left */
+            margin: 20px 0;
+            border-radius: 10px; /* Rounded corners */
+            text-align: left; /* Left-align the text */
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+        }
+
+        /* Hover effect for better focus */
+        h2:hover {
+            transform: translateX(10px); /* Slightly move to the right */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for focus effect */
+            background-color: #5f6a80; /* Darker grayish blue on hover */
+        }
+
+        /* Focus effect to make the text more prominent */
+        h2:focus {
+            outline: none; /* Remove default focus outline */
+            box-shadow: 0 0 10px 4px rgba(255, 99, 71, 0.8); /* Glowing tomato-colored outline */
+            background-color: #5f6a80; /* Darker grayish blue */
+            transform: scale(1.05); /* Slightly increase the size */
+        }
+
+        /* Optional: Add a little style to the whole page */
+        .container {
+            padding-left: 10px; /* Slight padding from the left side of the page */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the List of Sentences!</h1> <!-- New sentence added in h1 -->
+        <h2 tabIndex="0">This is the first sentence.</h2>
+        <h2 tabIndex="0">This is the second sentence.</h2>
+        <h2 tabIndex="0">This is the third sentence.</h2>
+        <h2 tabIndex="0">This is the fourth sentence.</h2>
+        <h2 tabIndex="0">This is the fifth sentence.</h2>
+    </div>
+</body>
+</html>
+
